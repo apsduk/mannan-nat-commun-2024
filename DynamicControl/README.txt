@@ -1,5 +1,38 @@
 % ======================================================================= %
-% EXAMPLE CODE FOR REVIEW                                                 %
+% MATLAB CODE RELATED TO "Design principles for engineering bacteria to   %
+% maximise chemical production from batch cultures"                       %
+% ======================================================================= %
+
+AUTHORS
+Ahmad A. Mannan, Imperial College London
+Alexander P.S. Darlington, University of Warwick
+Reiko J. Tanaka, Imperial College London
+Declan G. Bates, University of Warwick
+
+A.A.M and A.P.S.D equally contributed to this work.
+Correspondance should be addresssed to A.P.S.D (a.darlington.1@wariwck.ac.uk)
+or D.G.B (d.bates@warwick.ac.uk)
+
+ABSTRACT. Bacteria can be engineered to manufacture chemicals, but it is 
+unclear how to optimally engineer a single cell to maximise production 
+performance from batch cultures. Moreover, the performance of engineered 
+production pathways is affected by competition for the host's native 
+resources. Here, using a ``host-aware" computational framework which 
+captures competition for both metabolic and gene expression resources, 
+we uncover design principles for engineering the expression of host and 
+production enzymes at the cell level which maximise volumetric productivity 
+and yield from batch cultures. However, this does not break the fundamental 
+the growth-synthesis trade-off which limits production performance. We show 
+that engineering genetic circuits to switch cells to a high synthesis-low 
+growth state after first growing to a large population can further 
+improve performance. By analysing different circuit topologies, we show that
+highest performance is achieved by circuits that inhibit host metabolism to
+redirect it to product synthesis. Our results should facilitate 
+construction of microbial cell factories with high and efficient production 
+capabilities.
+
+% ======================================================================= %
+% EXAMPLE CODE                                                            %
 % ======================================================================= %
 %
 % ======================================================================= %
